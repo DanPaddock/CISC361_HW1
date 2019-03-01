@@ -10,7 +10,7 @@ void print()
 
   temp = head;
 
-    printf("Print items in order, or reverse order? (r = reverse, n = normal)");
+    printf("Print items in order, or reverse order? (r = reverse, n = normal): ");
     scanf(" %c", &c);
     
     switch(c){

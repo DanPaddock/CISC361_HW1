@@ -7,11 +7,9 @@ void deleteArtist(char *name)
     node_t *temp, *temp_2 = NULL;
     temp = head;
     
-
     while(temp != NULL){
-      //  if(temp->next != NULL){
-            temp_2 = temp->next;
-      //  }
+        temp_2 = temp->next;
+        
         if(strcmp(temp->artist, name) == 0){
             if(temp == head){
                 head = temp->next;
