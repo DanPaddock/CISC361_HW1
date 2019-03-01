@@ -4,7 +4,10 @@
  
 typedef struct node
 {
-  char *name;    
-  int   data;
+  char *artist;
+  char *title;
+  int data;
+  int time;
   struct node *next;
+  struct node *prev;
 } node_t; 
